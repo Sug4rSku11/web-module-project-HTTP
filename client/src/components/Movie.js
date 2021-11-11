@@ -31,6 +31,7 @@ const Movie = (props) => {
             console.log(err);
         })
     }
+    
 
     return(<div className="modal-page col">
         <div className="modal-dialog">

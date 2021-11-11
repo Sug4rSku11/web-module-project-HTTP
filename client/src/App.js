@@ -30,9 +30,7 @@ const App = (props) => {
     setMovies(movies.filter(item => (item.id !== (id))));
   }
 
-  const addToFavorites = (movie) => {
-    
-  }
+  
 
   return (
     <div>

@@ -22,16 +22,7 @@ const AddMovieForm = (props) => {
             [e.target.name]: e.target.value
         });
     }
-	// useEffect(() => {
-	// 	axios.get(`http://localhost:5000/api/movies/${id}`)
-	// 	.then(res => {
-	// 		setMovie(res.data);
-	// 	})
-	// 	.catch(err => {
-	// 		console.log(err);
-	// 	})
-	// }, []);
-
+	
     const handleSubmit = (e) => {
 		e.preventDefault();
 		axios.post(`http://localhost:5000/api/movies/`, movie)
